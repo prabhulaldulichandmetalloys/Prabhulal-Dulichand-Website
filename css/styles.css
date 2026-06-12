@@ -88,9 +88,35 @@ a:hover {
     align-items: center;
 }
 
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .logo img {
     height: 50px;
     width: auto;
+}
+
+.company-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.company-name h1 {
+    font-size: 1.1rem;
+    color: var(--primary-dark);
+    margin: 0;
+    font-weight: 700;
+}
+
+.company-name p {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin: 0;
+    font-weight: 500;
 }
 
 .nav-menu {
